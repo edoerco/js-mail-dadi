@@ -18,7 +18,7 @@ var list = ['edoardo@gmail.com', 'alberto@gmail.com', 'dario@gmail.com', 'davide
 // Esce solo Benvenuto ma non Ritenta
 
 // Soluzione 2
-var flag;
+var flag = false;
 
 for(i = 0; i < list.length; i++) {
     if(mail == list[i]) {
